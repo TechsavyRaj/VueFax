@@ -1,38 +1,135 @@
-# VueFax
+# VueFax 🚀
 
-This template should help get you started developing with Vue 3 in Vite.
+VueFax is a lightweight **Vue 3 + Vite** starter example app designed to help developers quickly bootstrap modern, fast, and scalable Vue applications.
 
-## Recommended IDE Setup
+This project is ideal for learning Vue 3 basics, experimenting with the Composition API, or starting a small-to-medium frontend project.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## ✨ Features
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- ⚡ Vue 3 with modern syntax
+- 🚀 Vite for ultra-fast development & builds
+- 🧩 Composition API ready
+- 🗂 Clean and simple project structure
+- 🛠 Easy to customize and extend
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 Tech Stack
 
-## Project Setup
+- **Vue 3**
+- **Vite**
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
 
-```sh
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/TechsavyRaj/VueFax.git
+cd VueFax
+````
+
+### 2️⃣ Install dependencies
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+or
 
-```sh
+```bash
+yarn install
+```
+
+or
+
+```bash
+pnpm install
+```
+
+---
+
+### 3️⃣ Run the development server
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+Open your browser and visit:
 
-```sh
-npm run build
 ```
+http://localhost:5173
+```
+
+---
+
+## 🛠 Available Scripts
+
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Build app for production |
+| `npm run preview` | Preview production build |
+
+---
+
+## 📁 Project Structure
+
+```text
+VueFax/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images, styles
+│   ├── components/      # Reusable Vue components
+│   ├── App.vue          # Root component
+│   ├── main.js          # App entry point
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧠 Learning Purpose
+
+This project helps you understand:
+
+* Vue 3 project setup using Vite
+* Component-based architecture
+* Composition API basics
+* Modern frontend tooling workflow
+
+---
+
+## 🧪 Recommended Tools
+
+* **VS Code**
+* **Vue Devtools (Browser Extension)**
+* **Node.js (LTS version)**
+
+---
+
+## 📌 Next Improvements (Optional)
+
+* Add Vue Router for multi-page navigation
+* Add Pinia for state management
+* Add Tailwind CSS or Bootstrap
+* Convert to TypeScript for type safety
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+### 👨‍💻 Source
+
+[Scrimba - Learn Vue](https://scrimba.com/learn-vue-c0jrrpaasr)
